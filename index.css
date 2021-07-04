@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rosybrown;
+  left: 0;
+  right: 0;
+}
+.jumbotron {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(img/4.1.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 200px;
+}
+.jumbotron.display-4 {
+  margin-top: 200px;
+}
+.jumbotron .btn {
+  background-color: mediumvioletred;
+  border: none;
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 40px;
+}
+#biodata {
+  padding-top: 2rem;
+}
+img {
+  display: block;
+  margin: auto;
+}
+h2 {
+  margin-top: 2rem;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  color: navy;
+  text-shadow: 2px 2px 5px #6b5b95;
+}
+
+table,
+th,
+td {
+  border: 1px navy;
+  border-style: ridge;
+  text-align: left;
+  font-size: 15px;
+  margin-top: 30px;
+}
+th,
+td {
+  background-color: hsl(48, 100%, 96%);
+  padding: 8px;
+}
+table {
+  padding-top: 3rem;
+  margin: auto;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+p {
+  text-indent: 0.5in;
+}
+footer {
+  text-align: center;
+  background-color: linen;
+  margin-top: 60px;
+  width: 100%;
+}
+#pengalamanpjj {
+  background-color: rgb(255, 214, 248);
+  width: 1000px;
+  border: 3px solid lightgoldenrodyellow;
+  padding: 35px;
+  margin: auto;
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+section {
+  padding-top: 5rem;
+}
+.container .btn {
+  background-color: mediumvioletred;
+  border: none;
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 40px;
+  position: relative;
+}

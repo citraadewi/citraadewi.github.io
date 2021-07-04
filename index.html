@@ -1,41 +1,123 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" type="text/css" href="cssku.css">
-	<title>HTML & CSS</title>
-</head>
-<body>
-<h1>Pengalaman Pembelajaran Jarak Jauh Selama Pandemi Covid-19</h1>
-<h2>Biodata Diri</h2>
-<img src="Foto Citra.jpg" alt="Foto Citra Dewi" title="Citra Dewi" width="250" height="240">
-<table width="100%">
-	 <tr>
-		<th>Nama</th>
-		<td>: Citra Dewi</td>
-	</tr>
-	<tr>
-		<th>Asal Sekolah</th>
-		<td>: SMK SMAK Bogor </td>
-	</tr>
-	<tr>
-		<th>Kelas</th> 
-		<td>: XI-5 </td>
-	</tr>
-	<tr>
-		<th>Tempat Tanggal Lahir</th> 	
-		<td>: Cianjur,18 November 2003</td>
-	</tr>
-	<tr>
-		<th>Cita- Cita</th> 
-		<td>: Analis Kimia</td>
-	</tr>
-	<tr>
-		<th>Motto</th> 
-		<td><i>: What is yours will find you</i></td>
-	</tr>
-</table>
-<h2>Pengalaman PJJ</h2>
-<p> Pandemi <a href="https://covid19.go.id">COVID-19</a> sangat berdampak bagi segala aspek kehidupan manusia. Termasuk juga berdampak pada aspek pendidikan. Sebagai upaya pencegahan penularan COVID -19, pemerintah memberlakukan sistem PJJ dalam penyelenggaraan pendidikan. Sistem Pembelajaran Jarak Jauh memungkinkan siswanya untuk melakukan kegiatan pembelajaran dari rumah. Bagi saya, banyak sisi positif dan negatif dari sistem ini. Hambatan yang dialami saat berlangsungnya sistem PJJ sangat beragam, seperti terkendalanya sinyal, padam listrik, borosnya paket data, dan kondisi rumah yang kurang kondusif. Dampak negatif yang saya rasakan adalah menjadi pribadi yang lebih malas dari sebelumnya. Hal ini dikarenakan saya membiasakan mengerjakan tugas H-1 <i>deadline</i>. Mengumpulkan tugas sebelum jam <i>deadline</i> pun lebih sering saya lakukan. Tidak seperti pembelajaran tatap muka, pada sistem PJJ ini saya lebih sering tidak dapat mengerti materi. Terutama bagi mata pelajaran yang tidak memberikan video penjelasan materinya.</p>
-<p>Kembali tidur setelah subuh pun menjadi kebiasaan . Bahkan terkadang hal itu menjadi alasan terjadinya keterlambatan absensi. Untuk mengatasi hal tersebut, biasanya saya menanyakan progres teman agar menjadi motivasi dan intropeksi untuk diri sendiri. Mata pelajaran praktik yang dilaksanakan secara <i>online</i> sering kali tidak bisa dipahami. Namun ternyata seiring berjalannya waktu dan berbagai upaya yang dilakukan seperti memahami video, atau menanyakan hal yang tidak dipahami kepada guru dapat sedikit mengatasi hal tersebut.  Namun, nyatanya banyak juga hal positif yang saya rasakan selama PJJ. Tersedianya aplikasi penunjang komunikasi atau pembelajaran seperti <a href="https://zoom.us/"><i>Zoom Cloud Meeting</i></a> dan <a href="https://meet.google.com/"><i>Google Meet</i></a> membuat saya sedikit banyak memahami cara mengoperasikan aplikasi tersebut. Penugasan dalam bentuk digital seperti poster digital dan infografis juga membuat saya lebih kreatif. Pandemi ini juga membuat saya lebih dekat dengan keluarga dan lebih banyak bersyukur.</p> 
-</body>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Citra Dewi</title>
+  </head>
+
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="#">Citra Dewi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#biodatadiri">Biodata Diri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pengalamanpjj">Pengalaman PJJ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fotogaleri.html">Galeri</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+      <h1 class="display-4"><span class="font-weight-bold"></span> Welcome to My Website :)</span></h1>
+      <a class="btn btn-primary btn-lg" href="#biodatadiri" role="button">Let's start!</a>
+    </div>
+
+    <!-- Akhir Jumbotron -->
+
+    <!-- Biodata Diri -->
+    <section id="biodatadiri">
+      <h2>Biodata Diri</h2>
+      <br>
+      <img src="img/1.jpg" alt="Foto Citra Dewi" title="Citra Dewi" width="250" class="rounded-circle" />
+<br>
+      <table>
+        <tr>
+          <th>Nama</th>
+          <td>Citra Dewi</td>
+        </tr>
+        <tr>
+          <th>Asal Sekolah</th>
+          <td>SMK SMAK Bogor</td>
+        </tr>
+        <tr>
+          <th>Kelas</th>
+          <td>XI-5</td>
+        </tr>
+        <tr>
+          <th>Tempat Tanggal Lahir</th>
+          <td>Cianjur,18 November 2003</td>
+        </tr>
+        <tr>
+          <th>Golongan Darah</th>
+          <td>O</td>
+        </tr>
+        <tr>
+          <th>Cita- Cita</th>
+          <td>Analis Kimia</td>
+        </tr>
+        <tr>
+          <th>Motto</th>
+          <td><i>What is yours will find you</i></td>
+        </tr>
+      </table>
+      <br>
+    </section>
+    <!-- Akhir Biodata Diri -->
+
+    <!-- Pengalaman PJJ -->
+    <section id="pengalamanpjj" class="pb-3">
+<div>
+      <h2>Pengalaman PJJ</h2>
+      
+
+      <p>
+        Pandemi <a href="https://covid19.go.id">COVID-19</a> sangat berdampak bagi segala aspek kehidupan manusia. Termasuk juga berdampak pada aspek pendidikan. Sebagai upaya pencegahan penularan COVID -19, pemerintah memberlakukan sistem
+        PJJ dalam penyelenggaraan pendidikan. Sistem Pembelajaran Jarak Jauh memungkinkan siswanya untuk melakukan kegiatan pembelajaran dari rumah. Bagi saya, banyak sisi positif dan negatif dari sistem ini. Hambatan yang dialami saat
+        berlangsungnya sistem PJJ sangat beragam, seperti terkendalanya sinyal, padam listrik, borosnya paket data, dan kondisi rumah yang kurang kondusif. Dampak negatif yang saya rasakan adalah menjadi pribadi yang lebih malas dari
+        sebelumnya. Hal ini dikarenakan saya membiasakan mengerjakan tugas H-1 <i>deadline</i>. Mengumpulkan tugas sebelum jam <i>deadline</i> pun lebih sering saya lakukan. Tidak seperti pembelajaran tatap muka, pada sistem PJJ ini saya
+        lebih sering tidak dapat mengerti materi. Terutama bagi mata pelajaran yang tidak memberikan video penjelasan materinya.
+      </p>
+
+      <p>
+        Kembali tidur setelah subuh pun menjadi kebiasaan. Bahkan terkadang hal itu menjadi alasan terjadinya keterlambatan absensi. Untuk mengatasi hal tersebut, biasanya saya menanyakan progres teman agar menjadi motivasi dan intropeksi
+        untuk diri sendiri. Mata pelajaran praktik yang dilaksanakan secara <i>online</i> sering kali tidak bisa dipahami. Namun ternyata seiring berjalannya waktu dan berbagai upaya yang dilakukan seperti memahami video, atau menanyakan
+        hal yang tidak dipahami kepada guru dapat sedikit mengatasi hal tersebut. Namun, nyatanya banyak juga hal positif yang saya rasakan selama PJJ. Tersedianya aplikasi penunjang komunikasi atau pembelajaran seperti
+        <a href="https://zoom.us/"><i>Zoom Cloud Meeting</i></a> dan <a href="https://meet.google.com/"><i>Google Meet</i></a> membuat saya sedikit banyak memahami cara mengoperasikan aplikasi tersebut. Penugasan dalam bentuk digital
+        seperti poster digital dan infografis juga membuat saya lebih kreatif. Pandemi ini juga membuat saya lebih dekat dengan keluarga dan lebih banyak bersyukur.
+      </p>
+    </div>
+    </section>
+    <!-- Akhir Pengalaman PJJ -->
+
+    <!-- Footer -->
+    <footer class="pb-3">
+      <p>&copy; Copyright 2021 |by<a href="http://instagram.com/citraa.dewiiii" class="fw-bold">c i t r a</a></p>
+    </footer>
+  </body>
 </html>
